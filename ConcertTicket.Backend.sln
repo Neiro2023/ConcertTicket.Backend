@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3D404A93-7981-4B96-A59A-C27E662BB486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{68CA7BCD-076C-401D-8947-83AB03B01A80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BEADAD03-18F5-44B0-8377-CC4F5872B61D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcertTicket.Domain", "ConcertTicket.Domain\ConcertTicket.Domain.csproj", "{4FAC6F1D-3D24-46D9-8013-96CE7C40C892}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcertTicket.Application", "ConcertTicket.Application\ConcertTicket.Application.csproj", "{78D8D25D-5CBD-4674-BB0E-8696546B171C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreDbPersistence", "PostgreDbPersistence\PostgreDbPersistence.csproj", "{E454B6E5-41FC-41D0-829E-1030589640DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcertTicket.WebApi", "ConcertTicket.WebApi\ConcertTicket.WebApi.csproj", "{74572DA4-7B42-4387-96B0-042F04014AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FAC6F1D-3D24-46D9-8013-96CE7C40C892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAC6F1D-3D24-46D9-8013-96CE7C40C892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAC6F1D-3D24-46D9-8013-96CE7C40C892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAC6F1D-3D24-46D9-8013-96CE7C40C892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D8D25D-5CBD-4674-BB0E-8696546B171C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D8D25D-5CBD-4674-BB0E-8696546B171C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D8D25D-5CBD-4674-BB0E-8696546B171C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D8D25D-5CBD-4674-BB0E-8696546B171C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E454B6E5-41FC-41D0-829E-1030589640DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E454B6E5-41FC-41D0-829E-1030589640DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E454B6E5-41FC-41D0-829E-1030589640DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E454B6E5-41FC-41D0-829E-1030589640DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74572DA4-7B42-4387-96B0-042F04014AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74572DA4-7B42-4387-96B0-042F04014AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74572DA4-7B42-4387-96B0-042F04014AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74572DA4-7B42-4387-96B0-042F04014AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FAC6F1D-3D24-46D9-8013-96CE7C40C892} = {3D404A93-7981-4B96-A59A-C27E662BB486}
+		{78D8D25D-5CBD-4674-BB0E-8696546B171C} = {3D404A93-7981-4B96-A59A-C27E662BB486}
+		{E454B6E5-41FC-41D0-829E-1030589640DC} = {68CA7BCD-076C-401D-8947-83AB03B01A80}
+		{74572DA4-7B42-4387-96B0-042F04014AE2} = {BEADAD03-18F5-44B0-8377-CC4F5872B61D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06EE2B06-101B-48D2-BF4F-59C4B6F32F6A}
+	EndGlobalSection
+EndGlobal
